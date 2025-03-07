@@ -24,7 +24,7 @@ p{
     background-image:linear-gradient(rgb(30, 0, 139),rgb(73, 73, 212) ) ;
     width: 150px;
     height:  150px;
-    margin-left: 32%;
+    margin: auto;
     margin-top: 60px;
 }
 section{
@@ -69,7 +69,7 @@ h2{
     color: white;
 }
 .ar{
-    margin-left: 55%;
+    margin-left: auto;
 }
 .ho{
     font-size: 20px;
@@ -89,4 +89,7 @@ button{
 }
 #gh{
     margin: 0 20px 0 20px;
+}
+@media  screen and (min-width: 800px) {
+    
 }
