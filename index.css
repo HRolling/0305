@@ -27,7 +27,7 @@ p{
     margin: auto;
     margin-top: 60px;
 }
-section{
+#kis{
     display: grid;
     grid-template-rows: 5;
     gap: 20px;
@@ -68,9 +68,6 @@ section{
 h2{
     color: white;
 }
-.ar{
-    margin-left: auto;
-}
 .ho{
     font-size: 20px;
 }
@@ -90,6 +87,33 @@ button{
 #gh{
     margin: 0 20px 0 20px;
 }
+#bsq h2{
+    margin-top: 20px;
+}
 @media  screen and (min-width: 800px) {
-    
+    #nagy{
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 1;
+        margin-top: 15%;
+    }
+    #bsq{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width: 400px;
+        margin-left: auto;
+        border-radius: 20px;
+        height: 50vh;
+    }
+    #kis{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        margin-right: 200px;
+        height: 50vh;
+        background-color: white;
+        width: 450px;
+    }
+    body{
+        background-color: rgb(242, 245, 245);
+    }
 }
