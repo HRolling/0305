@@ -90,6 +90,14 @@ button{
 #bsq h2{
     margin-top: 20px;
 }
+.ar{
+    display: inline-block;
+    text-align: right;
+    width: 70%;
+}
+.ar .pi{
+   width: 80%;
+}
 @media  screen and (min-width: 800px) {
     #nagy{
         display: grid;
