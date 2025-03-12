@@ -95,25 +95,43 @@ button{
         display: grid;
         grid-template-columns: 2;
         grid-template-rows: 1;
-        margin-top: 15%;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+
     }
     #bsq{
         grid-column-start: 1;
         grid-column-end: 2;
         width: 400px;
-        margin-left: auto;
         border-radius: 20px;
         height: 50vh;
+        margin-left: auto;
+        border: 2px solid white;
     }
     #kis{
         grid-column-start: 2;
         grid-column-end: 3;
-        margin-right: 200px;
         height: 50vh;
         background-color: white;
         width: 450px;
     }
     body{
         background-color: rgb(242, 245, 245);
+    }
+    #nnagy{
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-rows: 3;
+        height: 100%;
+    }
+    #fol{
+        grid-column: span 1 / 4;
+        height: 25vh
+    }
+    #bal{
+        grid-row: span 1 / 4;
     }
 }
