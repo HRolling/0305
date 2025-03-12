@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: content-box;
 }
+@font-face{
+    font-family: FO1;
+    src: url(HankenGrotesk-Bold.ttf);
+}
+@font-face{
+    font-family: FO2;
+    src: url(HankenGrotesk-ExtraBold.ttf);
+}
+@font-face{
+    font-family: FO3;
+    src: url(HankenGrotesk-Medium.ttf);
+}
 img{
     display: inline;
     margin-top: 20px;
@@ -60,6 +72,7 @@ p{
     top: 30px;
     font-size: 50px;
     color: white;
+    font-family: FO1;
 }
 #bci p{
     position: relative;
@@ -67,6 +80,7 @@ p{
 }
 h2{
     color: white;
+    font-family: FO2;
 }
 .ho{
     font-size: 20px;
